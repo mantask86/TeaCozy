@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    height: 70;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header li {
+    display: inline-block;
+    text-decoration: underline;
+    justify-content: right;
+}
+.banner {
+    top: 0;
+    position: relative;
+    height: 700px;
+    vertical-align: center;
+}
+.mission {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
