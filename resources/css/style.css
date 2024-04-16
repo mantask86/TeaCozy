@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 0;
+}
+/* Header Section*/
+.header {
+    height: 69px;
+    display: flex;
+    border-bottom: solid 1px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header img {
+    align-self: center;
+}
+
+#logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.menu li {
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner {
+   width: 1200px;
+   height: 700px;
+   display: flex;
+   background-image: url("file:///Users/mantaskopustas/Desktop/Codecademy/Tea%20Cozy/resources/media/mission_background.jpg");
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+  
+}
+
+.mission {
+    width: 1200px;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission h2{
+    margin: 0 0;
+    padding: 0 0;
+}
+.mission h4 {
+    margin: 0 0;
+    padding: 0 0;
+    margin-top: 20px;
+}
+/* Tea of Month Section */
+
+.month_tea h2{
+    margin: 0 0;
+    padding: 0 0;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.month_tea p {
+    margin: 0 0;
+    padding: 0 0;
+    margin-bottom: 20px;
+}
+
+.selections img {
+    max-height: 200px;
+    max-width: 300px;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.selections {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+.item1 h4, .item2 h4, .item3 h4, .item4 h4, .item5 h4 {
+    margin: 0 0;
+    padding: 0 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/* Locations Section */
+
+.locations img {
+    max-height: 500px;
+    width: 1200px;
+}
+
+/* Contact Section */
+
+/* Footer */
+
+
